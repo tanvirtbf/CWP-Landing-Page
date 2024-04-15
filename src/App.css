@@ -1,0 +1,63 @@
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.image{
+  background-image: url('../public/maxresdefault.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  filter: blur(4px);
+}
+.form-main{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  position:relative;
+  z-index: 99;
+}
+.right-main{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 70%;
+}
+.form-div{
+  display: flex;
+  flex-direction: column;
+}
+.form-control{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.btn{
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+}
+.icon{
+  font-size: 20px;
+}
