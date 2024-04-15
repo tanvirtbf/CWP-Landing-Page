@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CiBookmarkCheck } from "react-icons/ci";
+import { FaRegBookmark } from "react-icons/fa";
 
 const Form = () => {
   const [data, setData] = useState({
@@ -90,7 +90,7 @@ const Form = () => {
           />
         </div>
         <div className="form-div">
-          <label htmlFor="reactions" className="form-label">
+          <label htmlFor="reactions" className="form-label-select">
             আপনার কাঙ্ক্ষিত সার্ভিস সিলেক্ট করুন।
           </label>
           <select
@@ -133,7 +133,7 @@ const Form = () => {
           />
         </div>
         <button type="submit" className="btn btn-primary">
-          <CiBookmarkCheck className="icon" />
+          <FaRegBookmark className="icon"/>
           Book Now
         </button>
       </form>
